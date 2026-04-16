@@ -71,7 +71,6 @@
 	"ParallelAcquisitionTechnique": "GRAPPA",
 	"EffectiveEchoSpacing": 0.000196667,
 	"DerivedVendorReportedEchoSpacing": 0.000590001,
-	"AcquisitionDuration": 12.087,
 	"TotalReadoutTime": 0.01239,
 	"PixelBandwidth": 2170,
 	"DwellTime": 3.6e-06,
@@ -97,5 +96,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["func","_acq-epfid2p3_dir-RL_run-8_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20241127"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }

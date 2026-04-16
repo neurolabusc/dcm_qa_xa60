@@ -71,7 +71,6 @@
 	"ParallelAcquisitionTechnique": "SMS",
 	"EffectiveEchoSpacing": 0.000196667,
 	"DerivedVendorReportedEchoSpacing": 0.000590001,
-	"AcquisitionDuration": 30.4,
 	"TotalReadoutTime": 0.01239,
 	"PixelBandwidth": 2367,
 	"DwellTime": 3.3e-06,
@@ -97,5 +96,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["dwi","_acq-epse2p3m2_dir-RL_run-16_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20241127"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }
