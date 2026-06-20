@@ -19,8 +19,9 @@
 	"ProtocolName": "C2P__cmrr_mbep2d_diff__p2_mb2",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK\\SS",
+	"PulseSequenceType": "Multiband Gradient Echo EPI",
 	"ScanOptions": "PFP\\FS",
-	"PulseSequenceName": "epse2d1_100",
+	"SequenceName": "epse2d1_100",
 	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "MAGNITUDE"],
 	"ImageTypeText": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "MB", "ND"],
 	"NonlinearGradientCorrection": false,
@@ -37,6 +38,7 @@
 	"EchoTime": 0.1,
 	"RepetitionTime": 3,
 	"MTState": false,
+	"SpoilingState": false,
 	"FlipAngle": 90,
 	"PartialFourier": 0.75,
 	"BaseResolution": 100,
@@ -73,8 +75,11 @@
 	"BandwidthPerPixelPhaseEncode": 17.241,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "GRAPPA",
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000580013,
 	"DerivedVendorReportedEchoSpacing": 0.00116003,
+	"AcquisitionDuration": 53.382,
+	"NumberOfKSpaceTrajectories": 1,
 	"TotalReadoutTime": 0.0574213,
 	"PixelBandwidth": 1000,
 	"DwellTime": 5e-06,
@@ -100,5 +105,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["dwi","_acq-epse2p2_dir-AP_run-18_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

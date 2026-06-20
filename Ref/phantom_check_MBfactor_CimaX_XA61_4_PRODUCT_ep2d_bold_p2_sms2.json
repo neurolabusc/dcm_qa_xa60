@@ -19,8 +19,9 @@
 	"ProtocolName": "PRODUCT__ep2d_bold__p2_sms2",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Multiband Gradient Echo EPI",
 	"ScanOptions": "FS",
-	"PulseSequenceName": "*epfid2d1_100",
+	"SequenceName": "*epfid2d1_100",
 	"ImageType": ["ORIGINAL", "PRIMARY", "FMRI", "NONE", "MAGNITUDE"],
 	"ImageTypeText": ["ORIGINAL", "PRIMARY", "M", "DIS2D"],
 	"NonlinearGradientCorrection": true,
@@ -36,8 +37,8 @@
 	"EchoTime": 0.036,
 	"RepetitionTime": 1.23,
 	"MTState": false,
+	"SpoilingState": false,
 	"FlipAngle": 42,
-	"PartialFourier": 1,
 	"BaseResolution": 100,
 	"ShimSetting": [
 		177,
@@ -57,6 +58,7 @@
 	"RefLinesPE": 32,
 	"CoilCombinationMethod": "Sum of Squares",
 	"ConsistencyInfo": "66110001",
+	"MatrixCoilMode": "None",
 	"MultibandAccelerationFactor": 2,
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
@@ -68,8 +70,11 @@
 	"BandwidthPerPixelPhaseEncode": 17.241,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "SMS",
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000580013,
 	"DerivedVendorReportedEchoSpacing": 0.00116003,
+	"AcquisitionDuration": 14.967,
+	"NumberOfKSpaceTrajectories": 1,
 	"TotalReadoutTime": 0.0574213,
 	"PixelBandwidth": 1042,
 	"DwellTime": 4.8e-06,
@@ -95,5 +100,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-epfid2p2m2_dir-PA_run-4_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
