@@ -56,7 +56,7 @@
 	"ReceiveCoilActiveElements": "AC",
 	"CoilString": "8Tx32Rx_Head_C",
 	"PulseSequenceDetails": "%CustomerSeq%\\cmrr_mbep2d_bold",
-	"WipMemBlock": "db54c286-5d71-4d04-baf5-90fe8a565d8b||Sequence: R017 nxva60a/main r/8a088fb07; May 20 2024 14:21:49 by eja",
+	"WipMemBlock": "Sequence: R017 nxva60a/main r/8a088fb07; May 20 2024 14:21:49 by eja",
 	"RefLinesPE": 30,
 	"CoilCombinationMethod": "Sum of Squares",
 	"ConsistencyInfo": "66010002",
@@ -102,5 +102,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["func","_acq-epfid2p3_dir-RL_run-12_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260620"
+	"ConversionSoftwareVersion": "v1.0.20260819"
 }

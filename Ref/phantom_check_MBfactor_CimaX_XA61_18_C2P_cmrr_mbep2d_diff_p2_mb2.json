@@ -58,7 +58,7 @@
 	"ReceiveCoilActiveElements": "HC3-7",
 	"CoilString": "HeadNeck_64_CS",
 	"PulseSequenceDetails": "%CustomerSeq%\\cmrr_mbep2d_diff",
-	"WipMemBlock": "746dd344-dfd5-483d-ab68-d0351c12dc65||Sequence: R017 nxva61a/main r/ebb919c16; May 21 2024 11:06:40 by eja",
+	"WipMemBlock": "Sequence: R017 nxva61a/main r/ebb919c16; May 21 2024 11:06:40 by eja",
 	"RefLinesPE": 24,
 	"CoilCombinationMethod": "Sum of Squares",
 	"ConsistencyInfo": "66110001",
@@ -105,5 +105,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["dwi","_acq-epse2p2_dir-AP_run-18_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260620"
+	"ConversionSoftwareVersion": "v1.0.20260819"
 }
